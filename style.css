@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #171b6a65;
+    font-family: Montserrat;
+    width: 2000px;
+}
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+
+/* ------------ header --------------- */
+.header {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    height: 81px;
+    padding: 0 220px;
+}
+.logo img {
+    width: 34px;
+    height: 34px;
+    padding: 34px 0;
+}
+.header-brend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.header-logo h5 {
+    width: 136px;
+    padding: 37px 0 0 -3px;
+    margin-bottom: 3px;
+    color: var(--unnamed, #0C76D8);
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header-logo p {
+    margin-left: 0 0 0 3px;
+    width: 136px;
+    color: var(--unnamed, #2A2D46);
+    font-size: 11px;
+    font-weight: 400;
+}
+.tag-a {
+    display: flex;
+    justify-content: space-between;
+    width: 369px;
+    padding: 33px 58px 33px 74px;
+}
+.tag-a a {
+    color: var(--unnamed, #2A2D46);
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 400;
+    transition: .3s;
+}
+.tag-a a:hover {
+    color: var(--unnamed, #0C76D8);
+}
+.a-img img {
+    padding-bottom: 5px;
+    width: 18px;
+    height: 4px;
+}
+.connection {
+    display: flex;
+    align-items: center;
+}
+.connection p {
+    padding: 31px 37px 35px 0;
+    color: var(--unnamed, #2A2D46);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    transition: .3s;
+}
+.connection p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+.connection button {
+    margin: 25px 71px 26px 0;
+    padding: 8.5px 10px;
+    width: 130px;
+    height: 30px;
+    color: var(--unnamed, #EB2D66);
+    text-align: center;
+    font-size: 11px;
+    font-weight: 700;
+    background: #fff;
+    transition: .3s;
+    border: 1px solid var(--unnamed, #EB2D66);
+}
+.connection button:hover {
+    background: var(--unnamed, #EB2D66);
+    color: #fff;
+    cursor: pointer;
+}
+.basket {
+    display: flex;
+    transition: .3s;
+}
+.basket .class-shopping {
+    padding: 24px 17px 27px 0;
+    width: 30px;
+    height: 30px;
+}
+.basket p {
+    padding: 31px 2px 20px 0;
+    color: var(--unnamed, #2A2D46);
+    font-size: 12px;
+    font-weight: 700;
+}
+.basket .class-vector {
+    padding: 35px 51px 40px 0;
+    width: 10px;
+    height: 6px;
+    fill: var(--unnamed, #2A2D46);
+}
+.basket .class-shopping,
+.basket p,
+.basket .class-vector:hover {
+    cursor: pointer;
+}
+
+/* ------------- hero ------------------ */
+.hero {
+    display: flex;
+    background: #fff;
+}
+.hero-text {
+    margin: 145px 14px 100px 161px;
+}
+.hero-text h2 {
+    padding: 0 0 0 0;
+    color: var(--unnamed, #2A2D46);
+    font-size: 36px;
+    font-weight: 900;
+    width: 502px;
+}
+.hero-text p {
+    padding: 39px 0 45px 0;
+    width: 370px;
+    height: 67px;
+    color: var(--unnamed, #2A2D46);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 145.4%; /* 23.264px */
+}
+.hero-text button {
+    padding: 16px 45px;
+    width: 244px;
+    height: 57px;
+    background: var(--unnamed, #EB2D66);
+    box-shadow: 0px 7px 35px 0px rgba(235, 45, 102, 0.35);
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 145.4%; /* 21.81px */
+    border: none;
+}
+.hero-img {
+    margin: 24px 41px auto 0;
+    position: relative;
+}
+.hero-img1 {
+    padding: 0 0 95px 242;
+    width: 654px;
+    height: 516px;
+    background: rgba(49, 69, 255, 0.06);
+    position: absolute;
+    z-index: 1;
+}
+.hero-img2 {
+    padding: 17px 39px 153px 171px;
+    width: 686.749px;
+    height: 374px;
+    background: linear-gradient(0deg, rgba(49, 69, 255, 0.81) 0%, rgba(49, 69, 255, 0.81) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    z-index: 3;
+    position: absolute;
+
+}
+.hero-img3 {
+    padding: 94px 195.25px 170px 0;
+    width: 686.749px;
+    height: 374px;
+    z-index: 5;
+    position: absolute;
+}
